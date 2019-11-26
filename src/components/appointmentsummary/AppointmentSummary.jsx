@@ -46,8 +46,7 @@ class AppointmentSummary extends React.Component{
         
         return(
             <div>
-                <span></span>
-                <span>{this.props.selectedDayText}:{todaySummary}</span>
+                <span>{this.props.selectedDay}:{todaySummary}</span>
                 <AppointmentDayItems appointmentList = {this.props.appointments} selectedDay ={this.props.selectedDay} EditSelected = {this.EditSelected}></AppointmentDayItems>
                 <EditCalendarItem isOpen={this.state.showEditCalendarItem} shouldClose={this.CloseEditItem.bind(this)} selectedAppointment={this.state.selectedAppointment}></EditCalendarItem>
             </div>
