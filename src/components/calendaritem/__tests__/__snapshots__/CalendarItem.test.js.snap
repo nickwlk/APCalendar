@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    className="col"
+  >
+    <label>
+      Subject:
+      <div>
+        <input
+          className="newItemElement"
+          id="NewItemSubject"
+          onChange={[Function]}
+          type="text"
+          value="test"
+        />
+      </div>
+    </label>
+  </div>
+  <label>
+     Notes:
+    <div>
+      <textarea
+        className="newItemElement"
+        id="NewItemText"
+        onChange={[Function]}
+        rows="5"
+        value="test"
+      />
+    </div>
+  </label>
+  <div>
+    <label
+      htmlFor="NewItemTime"
+    >
+      Time:
+      <div>
+        <input
+          className="newItemElement"
+          id="NewItemTime"
+          onChange={[Function]}
+          type="time"
+          value="12:00"
+        />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label
+      htmlFor="NewItemDate"
+    >
+      Date:
+      <div>
+        <input
+          className="newItemElement"
+          id="NewItemDate"
+          onChange={[Function]}
+          type="date"
+          value="2019/11/01"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;

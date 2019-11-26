@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.body{
+  border-width: 2px;
+  border-radius: 5px;
+  border-top: solid lightskyblue;
+  border-right: solid lightskyblue;
+  margin: 10px;  
+}
+.body .row .monthDays{
+  border-left: solid lightskyblue;
+  border-bottom: solid lightskyblue;
+  border-width: 1 1px;
+  height: 60px;
+  text-align: left;
+}
+.row {
+/*formattign for the days in the month*/
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  margin: 0 auto;
+  width: 100%;    
+}
+.newItemElement{
+  border-radius: 5px;
+  margin-bottom: 5px;
+  
+}
+
+tr.summaryTableItem{
+
+  border-width: 1 1px;
+  border-left: solid lightskyblue;
+  border-right: solid lightskyblue;
+  border-bottom: solid lightskyblue;
+  border-top: solid lightskyblue;
+
+}
+table {
+ border-collapse: collapse;
+}
+td { border: 1px dotted #666; 
+  width: 125px;
+}
+
+
+ 
+.appointmentSummary{
+  float: right;
+  
+  border-width: 0 1px;  
+  margin-right: 10pc;
+ /* border-radius: 5px;
+  border-left: solid lightskyblue;
+  border-bottom: solid lightskyblue;
+  border-width: 1 1px;
+*/
+}
+
+.calendarInputControls{
+  margin-left: 50px;
+  margin-top: 10px;
+  border: solid lightskyblue;
+border-width: 1 1px;
+  border-radius: 5px;
+  width:250px;
+}
+.calendarControls{
+  float: left;
+  
+}
+
+#NewItemSubject{
+  width:200px;
+}
+#NewItemText{
+  width: 200px;
+  margin: 5px;
+}

@@ -1,0 +1,17 @@
+.editCalendarItem{
+    position: fixed;
+    top: 15%;
+    left:40%;
+    border: solid lightskyblue;
+    border-width: 1 1px;
+    padding: 10px;        
+    border-radius: 5px;
+    width:250px;
+    background-color: aliceblue;
+    
+  }
+.ActionButton{
+    margin-right: 10px;
+    border-radius: 5px;
+  
+}
